@@ -103,7 +103,7 @@ Resultado:
 ### Continuar con la ejecución del job de Pentaho
 
 Ejecutar el script de python utils/transformacion_provincia_val_a_cas.py.
-Ejecutar la **transformación de Pentaho Data Integration** transformacion_csv_mun_prov.ktr sobre viviendas_limpias.csv.
+Ejecutar la **transformación de Pentaho Data Integration** transformacion_csv_mun_prov.ktr sobre viviendas_limpias.csv y output_turismoactivo_castellano.csv.
 
 Acciones realizadas:
 - Mapeo de comunidades de valenciano a castellano del archivo turismoactivo
@@ -242,3 +242,4 @@ Las principales fuentes y herramientas utilizadas para la realización del proye
 Este proyecto ha sido desarrollado con fines exclusivamente académicos, en el marco de la asignatura **Adquisición y Preparación de Datos** del **Grado en Ingeniería en Inteligencia Artificial** de la **Universidad de Alicante**.
 
 Los datos empleados son de carácter público y oficial, y su tratamiento se ha realizado siguiendo criterios de calidad, reproducibilidad y uso responsable de la información.
+
