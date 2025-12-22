@@ -9,7 +9,7 @@ def main():
 
     mapa.generar_mapa_calor(
         csv_path=csv_path,
-        output_html="mapa_calor_alicante.html",
+        output_html="mapa_viviendas_turisticas.html",
         zoom_inicial=12,
         columna_tooltip="id_vivienda",
         radio_calor=20,
@@ -19,4 +19,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
