@@ -3,6 +3,9 @@ Proyecto de Adquisición, Preparación y Visualización de Datos
 
 Este repositorio implementa el flujo completo de **descarga, limpieza, normalización, enriquecimiento, geocodificación y visualización** de las viviendas turísticas registradas en la Comunidad Valenciana, utilizando exclusivamente **datos oficiales** de la Generalitat Valenciana y del INE.
 
+**IMPORTANTE!**
+Hay que ejecutar los códigos, estando dentro de la carpeta proyecto_viviendas_turisticas/
+
 ---
 
 ## Estructura del proyecto
@@ -254,5 +257,6 @@ Las principales fuentes y herramientas utilizadas para la realización del proye
 Este proyecto ha sido desarrollado con fines exclusivamente académicos, en el marco de la asignatura **Adquisición y Preparación de Datos** del **Grado en Ingeniería en Inteligencia Artificial** de la **Universidad de Alicante**.
 
 Los datos empleados son de carácter público y oficial, y su tratamiento se ha realizado siguiendo criterios de calidad, reproducibilidad y uso responsable de la información.
+
 
 
