@@ -84,7 +84,7 @@ Resultado:
 
 ---
 
-### Normalización administrativa (Python)
+### Normalización
 
 Ejecutar:
 
@@ -181,3 +181,64 @@ El mapa se guarda automáticamente y se abre en el navegador.
 
 Una herramienta reproducible que permite **analizar y visualizar la distribución, concentración y características de la vivienda turística** en la Comunidad Valenciana, facilitando el análisis territorial y la planificación urbana basada en datos oficiales.
 
+---
+
+## Licencia de uso
+
+Este proyecto se distribuye bajo la licencia:
+
+Creative Commons Atribución–NoComercial–CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)
+
+Esta licencia permite:
+- Compartir: copiar y redistribuir el material en cualquier medio o formato.
+- Adaptar: remezclar, transformar y construir a partir del material.
+
+Bajo las siguientes condiciones:
+- Atribución: se debe reconocer adecuadamente la autoría del trabajo.
+- No Comercial: no se permite el uso del material con fines comerciales.
+- Compartir Igual: las obras derivadas deben distribuirse bajo la misma licencia.
+
+Texto legal completo disponible en:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+---
+
+## Referencias y fuentes de datos
+
+Las principales fuentes y herramientas utilizadas para la realización del proyecto son:
+
+- Generalitat Valenciana – Turisme Comunitat Valenciana  
+  Registro Oficial de Viviendas Turísticas  
+  https://www.gva.es  
+
+- Instituto Nacional de Estadística (INE)  
+  Códigos oficiales de municipios y provincias  
+  https://www.ine.es  
+
+- Wikidata  
+  Enriquecimiento semántico y datos geográficos de municipios  
+  https://www.wikidata.org  
+
+- Schema.org  
+  Modelo semántico utilizado para la representación de viviendas turísticas  
+  https://schema.org/TouristApartment  
+
+- ArcGIS Geocoding Service  
+  Servicio de geocodificación de direcciones  
+  https://developers.arcgis.com  
+
+- Pentaho Data Integration  
+  Herramienta ETL para limpieza y agregación de datos  
+  https://www.pentaho.com  
+
+- Folium / Leaflet  
+  Librerías de visualización cartográfica interactiva  
+  https://python-visualization.github.io/folium/  
+
+---
+
+## Nota académica
+
+Este proyecto ha sido desarrollado con fines exclusivamente académicos, en el marco de la asignatura **Adquisición y Preparación de Datos** del **Grado en Ingeniería en Inteligencia Artificial** de la **Universidad de Alicante**.
+
+Los datos empleados son de carácter público y oficial, y su tratamiento se ha realizado siguiendo criterios de calidad, reproducibilidad y uso responsable de la información.
