@@ -399,7 +399,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>864</xloc>
+      <xloc>1104</xloc>
       <yloc>240</yloc>
       <attributes_kjc/>
     </entry>
@@ -411,7 +411,21 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1024</xloc>
+      <xloc>1264</xloc>
+      <yloc>240</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Display msgbox info</name>
+      <description/>
+      <type>MSGBOX_INFO</type>
+      <attributes/>
+      <bodymessage>Ejecutar archivos python para obtener archivo viviendas_limpias antes de continuar</bodymessage>
+      <titremessage>Transformación principal completada</titremessage>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>864</xloc>
       <yloc>240</yloc>
       <attributes_kjc/>
     </entry>
@@ -436,8 +450,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Transformation_csv_principal</from>
-      <to>Transformation_contexto</to>
+      <from>Transformation_contexto</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -445,8 +459,17 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Transformation_contexto</from>
-      <to>Success</to>
+      <from>Transformation_csv_principal</from>
+      <to>Display msgbox info</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Display msgbox info</from>
+      <to>Transformation_contexto</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
