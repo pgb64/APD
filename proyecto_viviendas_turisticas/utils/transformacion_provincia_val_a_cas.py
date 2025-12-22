@@ -55,4 +55,5 @@ def transformar_provincias_a_castellano(input_file, output_file):
 
 
 
-transformar_provincias_a_castellano('turismoactivo.csv', 'output_turismoactivo_castellano.csv')
+
+transformar_provincias_a_castellano('proyecto_viviendas_turisticas/database/turismoactivo.csv', 'proyecto_viviendas_turisticas/database/output_turismoactivo_castellano.csv')
