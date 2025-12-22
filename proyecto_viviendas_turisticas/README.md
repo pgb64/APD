@@ -136,17 +136,29 @@ Resultado:
 
 ---
 
-### Schema
+### Mapeo de Schema
 
 Ejecutar:
 
-...
-
-Proceso:
-- ...
+utils/generar_mapeo.py
 
 Resultado:
-- ...
+
+mapeo_ine_wikidata.json
+
+
+---
+
+## Archivo de viviendas Schema
+
+Ejecutar:
+
+utils/convertir_schema.py
+
+Resultado:
+
+viviendas_enriquecidas.jsonld
+
 
 ---
 
@@ -242,4 +254,5 @@ Las principales fuentes y herramientas utilizadas para la realización del proye
 Este proyecto ha sido desarrollado con fines exclusivamente académicos, en el marco de la asignatura **Adquisición y Preparación de Datos** del **Grado en Ingeniería en Inteligencia Artificial** de la **Universidad de Alicante**.
 
 Los datos empleados son de carácter público y oficial, y su tratamiento se ha realizado siguiendo criterios de calidad, reproducibilidad y uso responsable de la información.
+
 
