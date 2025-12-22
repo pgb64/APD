@@ -102,13 +102,19 @@ Resultado:
 
 ### Continuar con la ejecución del job de Pentaho
 
-Ejecutar la **transformación de Pentaho Data Integration** transformacion_csv_mun_prov.ktr sobre viviendas_limpias.csv, ... .
+Ejecutar el script de python utils/transformacion_provincia_val_a_cas.py.
+Ejecutar la **transformación de Pentaho Data Integration** transformacion_csv_mun_prov.ktr sobre viviendas_limpias.csv.
 
 Acciones realizadas:
-- ...
+- Mapeo de comunidades de valenciano a castellano del archivo turismoactivo
+- Agrupación de campos por CP, municipio y provincia respectivamente
+- Realización de operaciones para obtener métricas de contexto
+- Filtrado de columnas final
 
 Resultados:
-- ...
+- info_por_cp.csv
+- info_por_municipio.csv
+- info_por_provincia.csv
 
 ---
 
@@ -173,4 +179,5 @@ El mapa se guarda automáticamente y se abre en el navegador.
 
 ## Resultado final
 
-Una herramienta reproducible que permite **analizar y visualizar la distribución,concentración y características de la vivienda turística** en la Comunidad Valenciana, facilitando el análisis territorial y la planificación urbana basada en datos oficiales.
+Una herramienta reproducible que permite **analizar y visualizar la distribución, concentración y características de la vivienda turística** en la Comunidad Valenciana, facilitando el análisis territorial y la planificación urbana basada en datos oficiales.
+
